@@ -7,6 +7,7 @@ The system consists of two main components:
 2. **Time Tracking System**: Monitors gameplay and enforces time limits
 
 # Project Structure
+
 /home/pi/
 ├── arcade/
 │   ├── codes.json               # Demo code database
@@ -17,11 +18,11 @@ The system consists of two main components:
 └── .bashrc                      # Modified to run setup
 
 
-validation_screen.py - The main validation screen UI with joystick input handling
-time_tracker.py - Time tracking script that enforces game time limits
-runcommand-onstart.sh - RetroPie integration hook script
-codes.json - Sample codes database with demo codes
-install.sh - Installation script
+validation_screen.py - The main validation screen UI with joystick input handling \
+time_tracker.py - Time tracking script that enforces game time limits \
+runcommand-onstart.sh - RetroPie integration hook script \
+codes.json - Sample codes database with demo codes \
+install.sh - Installation script \
 
 
 # we need to go through these docs for the runcommand script: https://retropie.org.uk/docs/Runcommand/
