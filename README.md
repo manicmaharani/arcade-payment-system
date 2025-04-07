@@ -1,10 +1,10 @@
 # Arcade Payment System
-System Components:
+## System Overview
 
-Code Validation Screen: Python script using Pygame for input
-RunCommand Hook: Intercepts game launches
-Time Tracking: Monitors gameplay and enforces time limits
-Code Database: Stores demo codes for testing
+The system consists of two main components:
+
+1. **Code Validation Screen**: Intercepts game launches and requires code entry
+2. **Time Tracking System**: Monitors gameplay and enforces time limits
 
 # Project Structure
 /home/pi/
@@ -34,3 +34,5 @@ Player selects Pac-Man
         → Player enters the code sequence with joystick/buttons
           → If correct: Game launches + time tracking begins
           → If incorrect: Back to game selection
+
+
