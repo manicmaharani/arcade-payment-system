@@ -22,7 +22,7 @@ validation_screen.py - The main validation screen UI with joystick input handlin
 time_tracker.py - Time tracking script that enforces game time limits \
 runcommand-onstart.sh - RetroPie integration hook script \
 codes.json - Sample codes database with demo codes \
-install.sh - Installation script \
+install.sh - Installation script 
 
 
 # we need to go through these docs for the runcommand script: https://retropie.org.uk/docs/Runcommand/
