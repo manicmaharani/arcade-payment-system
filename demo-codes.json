@@ -1,0 +1,30 @@
+[
+  {
+    "game": "Pac-Man",
+    "sequence": ["UP", "UP", "DOWN", "DOWN", "LEFT", "RIGHT", "LEFT", "RIGHT"],
+    "created_at": 1646092800,
+    "expires_at": 9999999999,
+    "used": false
+  },
+  {
+    "game": "Space Invaders",
+    "sequence": ["UP", "UP", "DOWN", "LEFT", "A", "B", "X", "Y"],
+    "created_at": 1646092800,
+    "expires_at": 9999999999,
+    "used": false
+  },
+  {
+    "game": "Street Fighter II",
+    "sequence": ["LEFT", "RIGHT", "LEFT", "RIGHT", "UP", "DOWN", "A", "B"],
+    "created_at": 1646092800,
+    "expires_at": 9999999999,
+    "used": false
+  },
+  {
+    "game": "Donkey Kong",
+    "sequence": ["A", "B", "A", "B", "UP", "DOWN", "LEFT", "RIGHT"],
+    "created_at": 1646092800,
+    "expires_at": 9999999999,
+    "used": false
+  }
+]
