@@ -25,3 +25,12 @@ install.sh - Installation script
 
 
 # we need to go through these docs for the runcommand script: https://retropie.org.uk/docs/Runcommand/
+
+
+Player selects Pac-Man
+  → EmulationStation calls runcommand.sh
+    → runcommand.sh executes our runcommand-onstart.sh
+      → Our script launches validation_screen.py with "Pac-Man" parameter
+        → Player enters the code sequence with joystick/buttons
+          → If correct: Game launches + time tracking begins
+          → If incorrect: Back to game selection
